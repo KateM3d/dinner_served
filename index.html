@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <title>🍽️Dinner Served!</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container_menu">
+            <div class="menu_logo"><img class="logo" src="/assets/logo.jpg" alt="logo"></div>
+            <a class="menu_item" href="#">About</a>
+            <a class="menu_item" href="#">Our Menu</a>
+            <a class="menu_item" href="#">Leave Us A Comment</a>
+            <a class="menu_item" href="#">Contact Us</a>
+        </div>
+    </nav>
+
+    <h1 class="heading">Thank you for trusting us with your dinner!</h1>
+
+    <div class="container_slider">
+        <button id="back" class="btn">◀️</button>
+        <img id="image" src="/assets/1.jpg" alt="plate">
+        <button id="next" class="btn">▶️</button>
+
+
+    </div>
+
+    <div class="container_form">
+        <div class="form_left">
+            <form action="https://formspree.io/f/xdoydggv" method="POST">
+
+                <input type="hidden" name="_language" value="en">
+
+                <div class="form">
+                    <h3>Questions? We can help!</h3>
+                    <label>
+          Your email:
+          <input type="email" name="_replyto" required="" placeholder="Type your email here" >
+        </label>
+                    <label>
+          Your message:
+          <textarea name="message" required="" placeholder="Type your message here"></textarea>
+        </label>
+
+
+
+                    <button class="form_btn" type="submit">✔️Submit</button>
+
+                </div>
+            </form>
+        </div>
+        <div class="form_right">
+            <div class="leave_comment">
+                <h3>What would you like to order?</h3>
+
+                <input class="comment" type="text">
+                <button class="comment_btn" type="submit">✔️Add</button>
+            </div>
+
+            <div class="post_comment">
+                <ul class="toAdd">
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="footer_left">
+            <a class="footer_item" href="#">About</a>
+            <a class="footer_item" href="#">Our Menu</a>
+            <a class="footer_item" href="#">Leave Us A Comment</a>
+            <a class="footer_item" href="#">Contact Us</a>
+
+        </div>
+        <div class="social_media">
+            <img class="sMedia" src="/assets/instagram.jpg" alt="instagram">
+            <img class="sMedia" src="/assets/twitter.jpg" alt="twitter">
+            <img class="sMedia" src="/assets/whatsup.jpg" alt="whatsup">
+            <img class="sMedia" src="/assets/youtube.jpg" alt="youtube">
+        </div>
+
+        <div class="footer_right">
+            <div class="footer_logo"><img class="logo" src="/assets/logo.jpg" alt="logo"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
